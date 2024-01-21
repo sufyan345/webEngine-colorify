@@ -1,0 +1,32 @@
+{
+  "name": "colorify",
+  "version": "1.0.1",
+  "description": "A Library To Colorify Your Console and Make Your Development Attractive & Cool",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sufyan345/colorify-console.git"
+  },
+  "keywords": [
+    "console rainbow",
+    "colorify",
+    "logs colored"
+  ],
+  "author": "sufyan_ali <sa4016407@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sufyan345/colorify-console/issues"
+  },
+  "homepage": "https://github.com/sufyan345/colorify-console#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
